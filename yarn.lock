@@ -136,6 +136,11 @@
   resolved "https://registry.yarnpkg.com/@opentelemetry/context-base/-/context-base-0.14.0.tgz#c67fc20a4d891447ca1a855d7d70fa79a3533001"
   integrity sha512-sDOAZcYwynHFTbLo6n8kIbLiVF3a3BLkrmehJUyEbT9F+Smbi47kLGS2gG2g0fjBLR/Lr1InPD7kXL7FaTqEkw==
 
+"@tailwindcss/line-clamp@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@tailwindcss/line-clamp/-/line-clamp-0.2.0.tgz#7f30f26ed3835d64d1eb5a9b0d60cf5291dd2a3b"
+  integrity sha512-+jXSdRK3/9V/BCPCr+iNpMMhxWMMv62vn/AS2b3/ClmueGuhCijW3bUwO1IiHnE7uCaF74Sli8jUCv9djwvpLg==
+
 "@types/node@*":
   version "14.14.37"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
@@ -1311,7 +1316,7 @@ lodash.topath@^4.5.2:
   resolved "https://registry.yarnpkg.com/lodash.topath/-/lodash.topath-4.5.2.tgz#3616351f3bba61994a0931989660bd03254fd009"
   integrity sha1-NhY1Hzu6YZlKCTGYlmC9AyVP0Ak=
 
-lodash@^4.17.13, lodash@^4.17.21:
+lodash@^4.17.13, lodash@^4.17.15, lodash@^4.17.21:
   version "4.17.21"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
   integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
@@ -2204,6 +2209,13 @@ supports-color@^8.0.0:
   integrity sha512-MpUEN2OodtUzxvKQl72cUF7RQ5EiHsGvSsVG0ia9c5RbWGL2CI4C7EpPS8UTBIplnlzZiNuV56w+FuNxy3ty2Q==
   dependencies:
     has-flag "^4.0.0"
+
+tailwindcss-line-clamp@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/tailwindcss-line-clamp/-/tailwindcss-line-clamp-1.0.5.tgz#67053ede8e14f4065e920c7afcaf5d9377d91b11"
+  integrity sha512-tLqJAarIrz9Hgs3P3d98i329PN3vEYADabONPUJ1lccoJz/47Z8Vfhol9XfgjB1sQRZ+A4kdWIfwNJDHdnN1DQ==
+  dependencies:
+    lodash "^4.17.15"
 
 tailwindcss@^2.1.1:
   version "2.1.1"
